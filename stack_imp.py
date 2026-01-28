@@ -27,7 +27,7 @@ class StackADT:
 def main():
     s = StackADT()
     while True:
-        print("enter 1 to add element, 2 to delete, 3 to peek\n4 to check if stack is empty, 5 to find size, 6 to display\n7 to print")
+        print("enter 1 to add element, 2 to delete, 3 to peek\n4 to check if stack is empty, 5 to find size, 6 to display\n7 to exit")
         ch = int(input("enter your choice"))
         if ch == 1:
             ele = int(input("enter element to add to stack"))
